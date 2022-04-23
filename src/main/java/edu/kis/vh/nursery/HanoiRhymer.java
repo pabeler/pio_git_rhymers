@@ -15,6 +15,14 @@ public class HanoiRhymer extends DefaultCountingOutRhymer {
         else
             super.countIn(in);
 	}
+
+    public int getTotalRejected() {
+        return totalRejected;
+    }
+
+    public void setTotalRejected(int totalRejected) {
+        this.totalRejected = totalRejected;
+    }
 }
 
 //W klasie HanoiRhymer źle sformatowane byy wiersze: 5, 12, 14, 15
